@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바카라와 인생 | Baccarat and Life</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Noto Serif KR', Georgia, serif;
+            background: #f8f6f0;
+            color: #3a3a3a;
+            line-height: 1.8;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 8px; }
+        header h2 { font-size: 1.2rem; font-weight: normal; opacity: 0.9; margin-bottom: 10px; }
+        header p { font-size: 1rem; opacity: 0.85; }
+        nav {
+            position: sticky;
+            top: 0;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            display: block;
+            padding: 14px 18px;
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+        nav a:hover, nav a.active {
+            color: #27ae60;
+            border-bottom: 3px solid #27ae60;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        section { margin-bottom: 80px; scroll-margin-top: 80px; }
+        h2 {
+            font-size: 1.6rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        h2 span { color: #27ae60; }
+        .en-title {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+        h3 { font-size: 1.2rem; margin: 25px 0 10px; color: #34495e; }
+        .en-sub { font-size: 0.9rem; color: #7f8c8d; margin-bottom: 10px; }
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+        .card p { margin-bottom: 10px; font-size: 1rem; }
+        .en-text { font-size: 0.9rem; color: #555; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px dashed #eee; }
+        .rule-list { list-style: none; padding-left: 5px; }
+        .rule-list li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #e0e0e0;
+            font-size: 1rem;
+        }
+        .rule-list li:before {
+            content: "✦";
+            color: #27ae60;
+            margin-right: 10px;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 1.05rem;
+            color: #555;
+            border-left: 4px solid #27ae60;
+            padding: 20px;
+            margin: 30px 0;
+            background: #f0f7f0;
+            border-radius: 0 8px 8px 0;
+        }
+        .quote-en { font-size: 0.9rem; color: #666; margin-top: 10px; }
+        .record-box {
+            background: #f0f7f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 600px) {
+            .two-col { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎰 바카라와 인생</h1>
+    <h2>Baccarat and Life</h2>
+    <p>작게 이기고 길게 살다 — Win Small, Live Long</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home" class="active">🏠 홈 / Home</a></li>
+        <li><a href="#baccarat">🎰 바카라 / Baccarat</a></li>
+        <li><a href="#enlightenment">✨ 깨달음 / Enlightenment</a></li>
+        <li><a href="#happiness">💛 참행복 / True Happiness</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- ===== 홈 / Home ===== -->
+    <section id="home">
+        <h2>어서오세요 <span>🙏</span></h2>
+        <div class="en-title">Welcome</div>
+       
+        <div class="quote">
+            "모든 것을 잃고 나서야 비로소 진짜 무엇이 중요한지 알게 되었다."
+            <div class="quote-en">"Only after losing everything did I finally realize what truly matters."</div>
+        </div>
+       
+        <p>이곳은 10년간의 시간 속에서 욕심을 버리고 진실을 찾아낸 한 사람의 공간입니다. 바카라의 함정을 피해 살아남는 법, 그리고 인생에서 진정으로 행복해지는 법을 기록하는 곳입니다.</p>
+        <div class="en-text">This is a space of one person who spent 10 years letting go of greed and finding truth. A place to record how to survive the traps of baccarat, and how to find true happiness in life.</div>
+       
+        <p><strong>오늘의 다짐:</strong> 천천히, 조금씩, 흔들리지 않게. 적당히 먹고 물러나는 모기처럼.</p>
+        <div class="en-text"><strong>Today's Promise:</strong> Slowly, step by step, unshakable. Like a mosquito that drinks just enough and retreats.</div>
+    </section>
+
+    <!-- ===== 바카라 / Baccarat ===== -->
+    <section id="baccarat">
+        <h2>🎰 바카라 — 삥전략</h2>
+        <div class="en-title">Baccarat — The Small Bet Strategy</div>
+
+        <div class="card">
+            <h3>📌 핵심 원칙 / Core Principles</h3>
+            <ul class="rule-list">
+                <li>전체 시드 160만원을 20등분 — 하루 8만원만 사용<br><em>Divide 1.6M KRW into 20 parts — use only 80,000 KRW per day</em></li>
+                <li>1만원 삥베팅 — 본전은 하늘이 무너져도 지킨다<br><em>Always bet 10,000 KRW — Protect principal at all costs</em></li>
+                <li>하루 윈컷 4만원 이기면 즉시 스톱<br><em>Stop immediately when winning 40,000 KRW in a day</em></li>
+                <li>하루 로스컷 4만원 지면 즉시 스톱<br><em>Stop immediately when losing 40,000 KRW in a day</em></li>
+                <li>안변하는 자리만 기다려 베팅 — 서두르지 않는다<br><em>Wait for stable patterns — never rush</em></li>
+                <li>이기고 멈추는 자가 진정한 승리자다<br><em>He who stops while winning is the true victor</em></li>
+            </ul>
+        </div>
+
+        <div class="two-col">
+            <div class="card">
+                <h3>✅ 오늘의 기록 / Today's Record</h3>
+                <div class="record-box">
+                    <p><strong>시작 시드 / Start:</strong> 80,000원</p>
+                    <p><strong>최종 결과 / Result:</strong> +40,000원 (윈컷 달성 / Win Goal Reached)</p>
+                    <p><strong>플레이 시간 / Duration:</strong> 2시간 / 2 hours</p>
+                    <p><strong>마음 상태 / Mindset:</strong> 편안함, 흔들리지 않음 / Calm and steady</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>📊 통계 / Statistics</h3>
+                <div class="record-box">
+                    <p><strong>연속 승리일 / Win Streak:</strong> 3일째 / 3 days</p>
+                    <p><strong>최고 연패 / Max Losing Streak:</strong> 8연패 — 버텨냄 / 8 losses — endured</p>
+                    <p><strong>월간 수익 / Monthly Profit:</strong> +520,000원</p>
+                    <p><strong>목표 달성률 / Goal Rate:</strong> 100% — 매일 멈춤 / Stopped every day</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>💡 배운점 & 다짐 / Lessons & Promises</h3>
+            <p>"바카라에서 작게 베팅해서 망한 사람은 없었다. 모두 크게 베팅해서 망했다. 이기려 하지 말고 지지 않으려 하면 결국 이긴다."</p>
+            <div class="en-text">"No one ever lost everything betting small. Everyone lost by betting big. Don't try to win — try not to lose, and you will win in the end."</div>
+            <p>내일도 오늘처럼 — 가볍게, 삥으로, 기다릴 줄 아는 마음으로.</p>
+            <div class="en-text">Tomorrow, like today — light, small bets, and the patience to wait.</div>
+        </div>
+
+        <div class="card">
+            <h3>🌍 꿈의 여정 / The Dream Journey</h3>
+            <p>언젠가 모든 빚을 청산하고, 세계의 카지노를 돌아다니며 삥전략으로 조금씩 이기고, 그 돈으로 어려운 중생들을 구제하고 싶다. 인생이 한낮 꿈임을 알기에, 얻거나 잃을 것도 없다. 때가 되면 해가 지듯 조용히 사라질 것이다.</p>
+            <div class="en-text">Someday, after clearing all debts, I will travel the world's casinos, winning modestly with the small bet strategy, and use that money to help those in need. Knowing life is but a dream, I have nothing to gain or lose. When the time comes, I will fade away quietly like the setting sun.</div>
+        </div>
+    </section>
+
+    <!-- ===== 깨달음 / Enlightenment ===== -->
+    <section id="enlightenment">
+        <h2>✨ 깨달음 — 잃어서 얻은 것들</h2>
+        <div class="en-title">Enlightenment — What I Gained by Losing</div>
+
+        <div class="card">
+            <h3>🪙 욕심에 관하여 / On Greed</h3>
+            <p>욕심은 눈을 멀게 한다. 배가 터지도록 피를 빨아먹은 모기가 날지 못하고 죽는 것처럼, 사람도 욕심이 차면 도망칠 수 없다. 적당히 빨고 숨었으면 살았을 것을… 모든 것은 욕심 하나에서 시작된다.</p>
+            <div class="en-text">Greed blinds us. Just as a mosquito that gorges itself until it cannot fly, a person consumed by greed cannot escape. If only it had taken just enough and hidden… everything begins with greed.</div>
+        </div>
+
+        <div class="card">
+            <h3>⚔️ 칼의 법칙 / The Law of the Sword</h3>
+            <p>칼로 얻은 것은 칼로 잃는다. 이에는 이, 눈에는 눈. 역사는 언제나 그 법칙을 어기지 않았다. 권력이 정점에 있을 때 가장 날뛰는 자들이, 권력이 끝났을 때 가장 비참한 최후를 맞이한다.</p>
+            <div class="en-text">What is gained by the sword is lost by the sword. Eye for an eye. History has never broken this law. Those who rage loudest at the peak of power meet the most miserable end when their power ends.</div>
+        </div>
+
+        <div class="card">
+            <h3>🌑 잃고 나서야 보이는 것 / What Only Loss Reveals</h3>
+            <p>친구를 잃고, 신용을 잃고, 가족과 직장까지 잃고 나서야 비로소 보이는 진실이 있다. 세상에서 가장 값비싼 것은 돈이 아니라, 흔들리지 않는 마음과 지켜낼 수 있는 자제력이다.</p>
+            <div class="en-text">Losing friends, trust, family, and career — only then did the truth reveal itself. The most precious thing in the world is not money, but an unshakable heart and self-discipline.</div>
+        </div>
+
+        <div class="card">
+            <h3>🍂 무소유의 힘 / The Power of Non-Attachment</h3>
+            <p>가진 것이 없어서 자유롭다. 잃을 것이 없어서 두렵지 않다. 텅 빈 손이 오히려 무엇이든 받을 준비가 되어있는 손이다. 무소유야말로 가장 부유한 삶의 형태이다.</p>
+            <div class="en-text">Having nothing, I am free. Having nothing to lose, I fear nothing. Empty hands are the most ready to receive. Non-attachment is the richest way to live.</div>
+        </div>
+
+        <div class="card">
+            <h3>⏳ 시간의 가치 / The Value of Time</h3>
+            <p>서두르지 않는 자가 가장 멀리 간다. 강물도 한방울씩 모여 바다가 된다. 오늘 4만원, 내일 4만원… 그것이 1년이면 얼마나 쌓이겠는가? 시간은 욕심이 없는 자의 편이다.</p>
+            <div class="en-text">He who does not hurry travels farthest. Rivers become oceans one drop at a time. 40,000 today, 40,000 tomorrow… what will that amount to in a year? Time favors those without greed.</div>
+        </div>
+
+        <div class="card">
+            <h3>🏛️ 역사의 반복 / History Repeats</h3>
+            <p>큰 욕심은 흥하고 작은 욕심이 살아남는다. 제국도, 권력도, 부도 모두 한순간에 무너졌다. 오직 적당함을 아는 자만이 오래도록 평온을 누렸다. 역사는 결코 예외를 만들지 않는다.</p>
+            <div class="en-text">Great greed rises and falls; modest greed survives. Empires, power, and wealth all collapsed in an instant. Only those who know moderation find lasting peace. History never makes exceptions.</div>
+        </div>
+    </section>
+
+    <!-- ===== 참행복 / True Happiness ===== -->
+    <section id="happiness">
+        <h2>💛 참행복 — 흔들리지 않는 마음</h2>
+        <div class="en-title">True Happiness — The Unshakable Mind</div>
+
+        <div class="quote">
+            "돈이 많아도 불안한 사람이 있고, 가진 것이 적어도 평온한 사람이 있다. 어느 쪽이 진정한 부자인가?"
+            <div class="quote-en">"Some are rich yet anxious; some have little yet are at peace. Who is truly wealthy?"</div>
+        </div>
+
+        <div class="card">
+            <h3>💎 행복이란 무엇인가 / What Is Happiness?</h3>
+            <p>행복은 미래에 있는 것이 아니다. 내일 따뜻한 밥 한그릇, 오늘 편안한 잠 한숨, 아무것도 바라지 않는 마음 — 이것이 진짜 행복이다.</p>
+            <div class="en-text">Happiness is not in the future. A warm meal tomorrow, peaceful sleep tonight, a heart that expects nothing — this is true happiness.</div>
+        </div>
+
+        <div class="card">
+            <h3>🌊 흔들리지 않는 마음 / The Unshakable Mind</h3>
+            <p>세상이 흔들려도 나는 흔들리지 않는다. 돈이 와도 기뻐하지 않고, 가도 슬퍼하지 않는다. 외부의 것에 마음을 빼앗기지 않을 때, 비로소 진정한 자유가 온다.</p>
+            <div class="en-text">The world may shake, but I remain steady. Not overjoyed by gain, not saddened by loss. When nothing external controls your heart, true freedom arrives.</div>
+        </div>
+
+        <div class="card">
+            <h3>🌱 작은 것의 기쁨 / The Joy of Small Things</h3>
+            <p>창가로 스며드는 햇살, 시원한 바람 한점, 편안한 숨 한번… 이것들을 느낄 수 있는 마음이야말로 가장 큰 부자다. 큰 것을 쫓느라 작은 것을 보지 못하는 사람은 결코 행복할 수 없다.</p>
+            <div class="en-text">Sunlight through the window, a cool breeze, a peaceful breath… the heart that appreciates these is already richest. Chasing the big while missing the small — such a person can never be happy.</div>
+        </div>
+
+        <div class="card">
+            <h3>🤲 주는 것이 받는 것 / To Give Is To Receive</h3>
+            <p>언젠가 내가 얻은 것으로 어려운 이들을 돕고 싶다. 돈으로 행복을 살 수 없지만, 돈으로 다른 사람을 행복하게 해줄 수는 있다. 그것이야말로 돈의 유일한 진정한 가치이다.</p>
+            <div class="en-text">Someday I will use what I have gained to help those in need. Money cannot buy happiness, but it can help create happiness for others. That is money's only true value.</div>
+        </div>
+
+        <div class="card">
+            <h3>🍃 비교하지 않는 삶 / Life Without Comparison</h3>
+            <p>남과 비교하지 않을 때, 비로소 나 자신이 된다. 누군가는 빨리 가고 누군가는 느리게 간다. 속도가 중요한 것이 아니다. 흔들리지 않고 자신의 길을 가는 것이 중요하다.</p>
+            <div class="en-text">When I stop comparing, I become myself. Some go fast, some go slow. Speed does not matter. What matters is walking your own path without wavering.</div>
+        </div>
+
+        <div class="card">
+            <h3>🌅 때가 되면 사라지는 것 / All Things Pass</h3>
+            <p>인생은 한낮 꿈과 같다. 만남이 있으면 이별이 있고, 시작이 있으면 끝이 있다. 얻은 것에 집착하지 않고, 잃은 것에 슬퍼하지 않는다. 그저 흘러가는 것을 바라보는 마음 — 그것이 가장 평온한 마음이다.</p>
+            <div class="en-text">Life is like a dream. Where there is meeting, there is parting; where there is beginning, there is end. Not clinging to what comes, not grieving what goes. Simply watching it flow — that is the most peaceful mind of all.</div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>🎰 바카라와 인생 | Baccarat and Life</p>
+    <p>작게 이기고 길게 살다 — Win Small, Live Long</p>
+    <p>🙏 당신의 깨달음이 세상에 닿기를 — May your wisdom reach the world</p>
+</footer>
+
+</body>
+</html>
